@@ -156,3 +156,44 @@ body{
   "slnt" 0;
   color: #4c4c4c;
 }
+
+@media only screen and (max-width: 600px) {
+  .content{
+    width: 100vw 
+  }
+
+  .logo{
+    width: 80%;
+    height: 45%;
+    margin: 0%;
+    background-image: url("images/LogoPhone.png");
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1%;
+    margin-bottom: 0.8%;
+  }
+
+  .description{
+    width: 80%;
+    margin-bottom: 2%;
+  }
+  
+  .textDescription{
+    text-align: center;
+    font-size: medium;
+  }
+
+  .status{
+    width: 80%;
+  }
+
+  .collaboration{
+    width: 80%;
+    margin-top: 8%;
+  }
+  
+  .textCollaboration{
+    text-align: start;
+  }
+}
